@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 
 
 
-const url = "http://localhost:8000"
+const url = "https://vchat-server-5tdv.onrender.com"
 let gfs, gridFsBucket;
 const conn = mongoose.connection;
 conn.once('open', () => {
